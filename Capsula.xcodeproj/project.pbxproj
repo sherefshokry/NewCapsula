@@ -321,9 +321,9 @@
 		5BC28D8923C0BEA100B81D1D /* VerificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC28D8423C0BEA000B81D1D /* VerificationRouter.swift */; };
 		5BC28D8A23C0BEA100B81D1D /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC28D8523C0BEA100B81D1D /* VerificationViewController.swift */; };
 		5BC28D8C23C0BF8E00B81D1D /* VerificationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC28D8B23C0BF8E00B81D1D /* VerificationDataSource.swift */; };
+		5BD3FFA1258923E400C14B92 /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BD3FFA0258923E300C14B92 /* ringtone.mp3 */; };
 		5BE3F584257A83CB00351A25 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3F583257A83CB00351A25 /* NotificationService.swift */; };
 		5BE3F588257A83CB00351A25 /* Service.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5BE3F581257A83CB00351A25 /* Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		5BE3F58E257AB03500351A25 /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3F58D257AB03400351A25 /* ringtone.mp3 */; };
 		5BF97B4224AAE10B00C7A866 /* TermsAndConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF97B4124AAE10B00C7A866 /* TermsAndConditionVC.swift */; };
 		5BF97B4424AAE56500C7A866 /* DeliveryManRegistrationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF97B4324AAE56500C7A866 /* DeliveryManRegistrationDataSource.swift */; };
 		5BF97B6624AD2E3700C7A866 /* nationalitiesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF97B6524AD2E3700C7A866 /* nationalitiesResponse.swift */; };
@@ -698,10 +698,10 @@
 		5BC28D8423C0BEA000B81D1D /* VerificationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationRouter.swift; sourceTree = "<group>"; };
 		5BC28D8523C0BEA100B81D1D /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		5BC28D8B23C0BF8E00B81D1D /* VerificationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationDataSource.swift; sourceTree = "<group>"; };
+		5BD3FFA0258923E300C14B92 /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
 		5BE3F581257A83CB00351A25 /* Service.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Service.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3F583257A83CB00351A25 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		5BE3F585257A83CB00351A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BE3F58D257AB03400351A25 /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
 		5BF97B4124AAE10B00C7A866 /* TermsAndConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionVC.swift; sourceTree = "<group>"; };
 		5BF97B4324AAE56500C7A866 /* DeliveryManRegistrationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryManRegistrationDataSource.swift; sourceTree = "<group>"; };
 		5BF97B6524AD2E3700C7A866 /* nationalitiesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nationalitiesResponse.swift; sourceTree = "<group>"; };
@@ -1386,7 +1386,7 @@
 		5B9DA14E23B1499A00F8696A = {
 			isa = PBXGroup;
 			children = (
-				5BE3F58D257AB03400351A25 /* ringtone.mp3 */,
+				5BD3FFA0258923E300C14B92 /* ringtone.mp3 */,
 				5B9DA15923B1499A00F8696A /* Capsula */,
 				5BE3F582257A83CB00351A25 /* Service */,
 				5B9DA15823B1499A00F8696A /* Products */,
@@ -1752,7 +1752,7 @@
 				5B5B090A25070F770082B40B /* Almarai-Regular.ttf in Resources */,
 				5BFFBFBC2502B362002C3063 /* LaunchScreen.strings in Resources */,
 				5B53E5412502801D00DA4B8C /* HomeDeliveryHeaderCell.xib in Resources */,
-				5BE3F58E257AB03500351A25 /* ringtone.mp3 in Resources */,
+				5BD3FFA1258923E400C14B92 /* ringtone.mp3 in Resources */,
 				5BB971F823E75EC70033F6D9 /* Roboto-Bold.ttf in Resources */,
 				5BB971F923E75EC70033F6D9 /* Roboto-Medium.ttf in Resources */,
 				5B5A4A772503EA2E003B6D0C /* NeoSansArabic.ttf in Resources */,
@@ -2499,7 +2499,7 @@
 				CODE_SIGN_ENTITLEMENTS = Capsula/Capsula.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CURRENT_PROJECT_VERSION = 24;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PM223W94NZ;
 				ENABLE_BITCODE = YES;
@@ -2515,7 +2515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BinoyedSA.Capsula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2534,7 +2534,7 @@
 				CODE_SIGN_ENTITLEMENTS = Capsula/Capsula.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CURRENT_PROJECT_VERSION = 24;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PM223W94NZ;
 				ENABLE_BITCODE = YES;
@@ -2550,7 +2550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BinoyedSA.Capsula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2565,7 +2565,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CURRENT_PROJECT_VERSION = 24;
 				DEVELOPMENT_TEAM = PM223W94NZ;
 				INFOPLIST_FILE = Service/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -2574,6 +2574,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BinoyedSA.Capsula.Service;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2587,7 +2588,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CURRENT_PROJECT_VERSION = 24;
 				DEVELOPMENT_TEAM = PM223W94NZ;
 				INFOPLIST_FILE = Service/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -2596,6 +2597,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BinoyedSA.Capsula.Service;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

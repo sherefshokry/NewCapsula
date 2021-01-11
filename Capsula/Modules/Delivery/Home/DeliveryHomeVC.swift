@@ -88,7 +88,7 @@ class DeliveryHomeVC : UIViewController {
     @objc func reloadOrderList(_ notification: NSNotification){
 //        page = 0
 //        isFinishedPaging = false
-//        ordersList = []
+        ordersList = []
         getMyOrders()
     }
     
@@ -155,7 +155,6 @@ class DeliveryHomeVC : UIViewController {
 //                    }
                     self.ordersList = ordersResponse.data?.ordersList ?? []
                     self.tableView.reloadData()
-                    
                 } catch(let catchError) {
                     self.showMessage(catchError.localizedDescription)
                 }
@@ -184,6 +183,7 @@ class DeliveryHomeVC : UIViewController {
                 switch result {
                 case .success(_):
                     if statusId == 4 {
+                      self.ordersList = []
                       self.getMyOrders()
                     }
                 case .failure(let error):

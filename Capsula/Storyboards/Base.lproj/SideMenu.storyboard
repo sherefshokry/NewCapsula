@@ -510,7 +510,7 @@ Integrate into your CMS using our API: just use the RandomText API to return gen
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YI7-i2-5do">
-                                <rect key="frame" x="22" y="89.5" width="276" height="106"/>
+                                <rect key="frame" x="22" y="89.5" width="276" height="167"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eyK-HW-kZc">
                                         <rect key="frame" x="0.0" y="0.0" width="276" height="45"/>
@@ -624,8 +624,8 @@ Integrate into your CMS using our API: just use the RandomText API to return gen
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJt-ij-vr3">
-                                        <rect key="frame" x="0.0" y="106" width="276" height="45"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJt-ij-vr3">
+                                        <rect key="frame" x="0.0" y="122" width="276" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oK-VY-1Tm">
                                                 <rect key="frame" x="54" y="14" width="64.5" height="17"/>
@@ -681,7 +681,7 @@ Integrate into your CMS using our API: just use the RandomText API to return gen
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oJh-ce-rGb">
-                                        <rect key="frame" x="0.0" y="106" width="276" height="45"/>
+                                        <rect key="frame" x="0.0" y="167" width="276" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STC Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzw-em-yyE">
                                                 <rect key="frame" x="54" y="14" width="54" height="17"/>
@@ -736,7 +736,7 @@ Integrate into your CMS using our API: just use the RandomText API to return gen
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSP-sr-Tq2">
-                                <rect key="frame" x="60" y="211.5" width="200" height="55"/>
+                                <rect key="frame" x="60" y="272.5" width="200" height="55"/>
                                 <color key="backgroundColor" red="0.054901960780000002" green="0.31764705879999999" blue="0.54117647059999996" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="1WE-OU-MOG"/>

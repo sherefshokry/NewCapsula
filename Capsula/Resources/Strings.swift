@@ -113,6 +113,7 @@ class Strings: Any {
     var finished_status =    "Finished".localize()
     var delivered_popup =    "Is order delivered to the customer ?".localize()
     var add_credit_fees = "To add your card there will be a deduction of 1 SR to verify your card and deducted amount will be refunded".localize()
+    var Pieces = "Pieces".localize()
     
     struct Fields {
         static var shared = Fields()

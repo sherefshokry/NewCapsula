@@ -189,6 +189,7 @@ class DeliveryOrderDetailsVC : UIViewController {
         
         
         self.ordersList = ordersDetailsResponse.products ?? []
+        
         self.addressLabel.text = ordersDetailsResponse.customerAddress ?? ""
         self.phoneNumberLabel.text = ordersDetailsResponse.storeAddress ?? ""
         let rows : Float  = Float(ordersList.count / 2)
@@ -280,7 +281,7 @@ class DeliveryOrderDetailsVC : UIViewController {
     func openGoogleMap(latitude: Double , longitude: Double) {
         
         if (UIApplication.shared.canOpenURL(URL(string:"comgooglemaps://")!)) {  //if phone has an app
-            if let url = URL(string: "comgooglemaps-x-callback://?saddr=&daddr=\(order.customerLat ?? 0.0),\(order.customerLong ?? 0.0)&directionsmode=driving") {
+            if let url = URL(string: "comgooglemaps-x-callback://?saddr=&daddr=\(latitude),\(longitude)&directionsmode=driving") {
                 UIApplication.shared.open(url, options: [:])
             }}
         else {
@@ -304,6 +305,8 @@ class DeliveryOrderDetailsVC : UIViewController {
             case .success(_):
                 if (statusId == 7){
                      self.openGoogleMap(latitude: self.order.storeLat ?? 0.0, longitude: self.order.storeLong ?? 0.0)
+                }else if(statusId == 5){
+                    self.openGoogleMap(latitude: self.order.customerLat ?? 0.0, longitude: self.order.customerLong ?? 0.0)
                 }
                 self.getOrderDetailsData()
                 break

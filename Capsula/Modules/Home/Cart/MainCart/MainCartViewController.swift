@@ -143,10 +143,15 @@ class MainCartViewController: UIViewController, SFSafariViewControllerDelegate,O
             }
       
             let paymentRequest = OPPPaymentProvider.paymentRequest(withMerchantIdentifier: "merchant.com.BinoyedSA.CapsulaLive", countryCode: "SA")
+            
             paymentRequest.supportedNetworks = [PKPaymentNetwork(rawValue: "Visa"),
             PKPaymentNetwork(rawValue: "MasterCard")]
+            paymentRequest.paymentSummaryItems = [PKPaymentSummaryItem(label: "CAPSULA", amount: 0)]
             checkoutSettings.paymentBrands = ["APPLEPAY"]
+            
             checkoutSettings.applePayPaymentRequest = paymentRequest
+
+            
            print(PKPaymentAuthorizationViewController.canMakePayments())
         
         }

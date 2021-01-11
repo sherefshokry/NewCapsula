@@ -128,4 +128,15 @@ extension SideMenuViewController : UITableViewDelegate , UITableViewDataSource {
         
         self.presenter?.didSelectElement(itemIndex: indexPath.row)
     }
+    
+    
+//    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+//        let imagesCell = tableView.dequeueReusableCell(withIdentifier:  "paymentImagesCell")
+//        return imagesCell
+//    }
+//
+//    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+//        return 100.0
+//    }
+    
 }

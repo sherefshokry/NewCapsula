@@ -191,7 +191,7 @@ class OrderDetailsViewController : UIViewController {
         }
         
         let collectionWidth = (self.collectionView.bounds.width / 3.0)
-        self.collectionViewHeightConstraint.constant = CGFloat(totalNumberOfRows) * (collectionWidth + 50)
+        self.collectionViewHeightConstraint.constant = CGFloat(totalNumberOfRows) * (collectionWidth + 75)
         self.view.layoutIfNeeded()
         self.collectionView.reloadData()
         
@@ -259,7 +259,7 @@ extension OrderDetailsViewController : UICollectionViewDataSource , UICollection
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let width = (collectionView.bounds.width / 3.0)
-        let height = width + 50.0
+        let height = width + 75.0
         
         return CGSize(width: width, height: height)
     }

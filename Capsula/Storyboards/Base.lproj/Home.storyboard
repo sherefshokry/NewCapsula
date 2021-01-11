@@ -3518,10 +3518,10 @@ Vanilla &amp; Almond Oil</string>
                                                     <rect key="frame" x="22" y="8" width="276" height="210"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICC-tb-wTM">
-                                                            <rect key="frame" x="16" y="16" width="80" height="30"/>
+                                                            <rect key="frame" x="16" y="16" width="100" height="30"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTC-pn-w5n">
-                                                                    <rect key="frame" x="23.5" y="8" width="33" height="14.5"/>
+                                                                    <rect key="frame" x="33.5" y="8" width="33" height="14.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3531,7 +3531,7 @@ Vanilla &amp; Almond Oil</string>
                                                             <constraints>
                                                                 <constraint firstItem="VTC-pn-w5n" firstAttribute="centerY" secondItem="ICC-tb-wTM" secondAttribute="centerY" id="Hpa-uj-0pG"/>
                                                                 <constraint firstItem="VTC-pn-w5n" firstAttribute="centerX" secondItem="ICC-tb-wTM" secondAttribute="centerX" id="Mjw-8L-xfv"/>
-                                                                <constraint firstAttribute="width" constant="80" id="NcH-k8-rR5"/>
+                                                                <constraint firstAttribute="width" constant="100" id="NcH-k8-rR5"/>
                                                                 <constraint firstAttribute="height" constant="30" id="xv1-PI-JS1"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
@@ -3988,31 +3988,40 @@ Vanilla &amp; Almond Oil</string>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="721" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w11-lD-obG">
-                                                                            <rect key="frame" x="8" y="127.5" width="128" height="14.5"/>
+                                                                            <rect key="frame" x="8" y="145" width="128" height="14.5"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                                                                             <color key="textColor" red="0.2156862745" green="0.71372549019999998" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="413" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKC-61-Py3">
-                                                                            <rect key="frame" x="8" y="145" width="128" height="10"/>
+                                                                            <rect key="frame" x="8" y="162.5" width="128" height="10"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="8"/>
                                                                             <color key="textColor" red="0.2156862745" green="0.71372549019999998" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xe-V8-jkh">
+                                                                            <rect key="frame" x="8" y="127.5" width="128" height="14.5"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                            <color key="textColor" red="0.36470588240000001" green="0.36078431370000003" blue="0.4431372549" alpha="0.5" colorSpace="custom" customColorSpace="deviceRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
                                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                                     <constraints>
+                                                                        <constraint firstItem="w11-lD-obG" firstAttribute="top" secondItem="5xe-V8-jkh" secondAttribute="bottom" constant="3" id="6fx-Ck-bVn"/>
                                                                         <constraint firstAttribute="trailing" secondItem="75R-3q-466" secondAttribute="trailing" id="6lV-iY-J1W"/>
                                                                         <constraint firstItem="Fxi-R6-NFW" firstAttribute="top" secondItem="0ed-UN-zvu" secondAttribute="bottom" constant="3" id="7OD-zl-5n2"/>
                                                                         <constraint firstItem="w11-lD-obG" firstAttribute="leading" secondItem="xXd-Lr-aem" secondAttribute="leading" constant="8" id="Bhb-Y9-Y4i"/>
-                                                                        <constraint firstItem="w11-lD-obG" firstAttribute="top" secondItem="Fxi-R6-NFW" secondAttribute="bottom" constant="3" id="CDs-cn-rag"/>
                                                                         <constraint firstItem="0ed-UN-zvu" firstAttribute="top" secondItem="75R-3q-466" secondAttribute="bottom" constant="3" id="KZL-mE-roF"/>
+                                                                        <constraint firstItem="5xe-V8-jkh" firstAttribute="top" secondItem="Fxi-R6-NFW" secondAttribute="bottom" constant="3" id="N2V-Q1-BrJ"/>
                                                                         <constraint firstItem="Fxi-R6-NFW" firstAttribute="leading" secondItem="xXd-Lr-aem" secondAttribute="leading" constant="8" id="OL9-Sz-NDt"/>
                                                                         <constraint firstAttribute="trailing" secondItem="w11-lD-obG" secondAttribute="trailing" constant="8" id="PjG-gm-N76"/>
                                                                         <constraint firstItem="75R-3q-466" firstAttribute="top" secondItem="xXd-Lr-aem" secondAttribute="top" id="RgQ-BV-hJ6"/>
                                                                         <constraint firstItem="75R-3q-466" firstAttribute="leading" secondItem="xXd-Lr-aem" secondAttribute="leading" id="SBy-6m-DHm"/>
                                                                         <constraint firstItem="0ed-UN-zvu" firstAttribute="leading" secondItem="xXd-Lr-aem" secondAttribute="leading" constant="8" id="WEL-Sf-j3B"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="5xe-V8-jkh" secondAttribute="trailing" constant="8" id="Zgf-lI-Eq6"/>
                                                                         <constraint firstAttribute="trailing" secondItem="0ed-UN-zvu" secondAttribute="trailing" constant="8" id="fBW-3q-6c1"/>
+                                                                        <constraint firstItem="5xe-V8-jkh" firstAttribute="leading" secondItem="xXd-Lr-aem" secondAttribute="leading" constant="8" id="hfk-yd-h1x"/>
                                                                         <constraint firstItem="oKC-61-Py3" firstAttribute="leading" secondItem="xXd-Lr-aem" secondAttribute="leading" constant="8" id="iS1-3D-rxR"/>
                                                                         <constraint firstItem="oKC-61-Py3" firstAttribute="top" secondItem="w11-lD-obG" secondAttribute="bottom" constant="3" id="kZq-uc-c8i"/>
                                                                         <constraint firstAttribute="trailing" secondItem="oKC-61-Py3" secondAttribute="trailing" constant="8" id="kxg-N0-kf2"/>
@@ -4056,6 +4065,7 @@ Vanilla &amp; Almond Oil</string>
                                                             <outlet property="productPieces" destination="Fxi-R6-NFW" id="nDu-FJ-qBk"/>
                                                             <outlet property="productPrice" destination="w11-lD-obG" id="bTU-Oy-Hff"/>
                                                             <outlet property="productVat" destination="oKC-61-Py3" id="j4T-gC-2Bb"/>
+                                                            <outlet property="storeName" destination="5xe-V8-jkh" id="he0-BY-na9"/>
                                                         </connections>
                                                     </collectionViewCell>
                                                 </cells>

@@ -11,7 +11,6 @@
 	<key>com.apple.developer.in-app-payments</key>
 	<array>
 		<string>merchant.com.BinoyedSA.CapsulaLive</string>
-		<string>merchant.com.BinoyedSA.Capsula</string>
 	</array>
 </dict>
 </plist>

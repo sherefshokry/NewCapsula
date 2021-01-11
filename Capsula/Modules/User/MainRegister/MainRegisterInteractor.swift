@@ -25,10 +25,11 @@ class MainRegisterInteractor : PresenterToIntetractorMainRegisterProtocol {
             case .success(let response):
                 do {
                     let userResponse = try response.map(BaseResponse<UserResponse>.self).data ?? UserResponse()
-                    Utils.saveUser(user: userResponse)
-                    Utils.updateUserCart(list : userResponse.user?.cartContent ?? []){
-                        
-                    }
+                      if  userResponse.user?.phone ?? "" != ""  {
+                                          Utils.saveUser(user: userResponse)
+                                          Utils.updateUserCart(list : userResponse.user?.cartContent ?? []){
+                                          }
+                                      } 
                     UserDefaults.standard.set(false, forKey: "isDelivery")
                     self.presenter?.loggedInSuccussfully(userResponse: userResponse)
                 } catch(let catchError) {
@@ -94,10 +95,13 @@ class MainRegisterInteractor : PresenterToIntetractorMainRegisterProtocol {
             case .success(let response):
                 do {
                     let userResponse = try response.map(BaseResponse<UserResponse>.self).data ?? UserResponse()
-                    Utils.saveUser(user: userResponse)
-                    Utils.updateUserCart(list : userResponse.user?.cartContent ?? []){
-                        
-                    }
+                    
+                    
+                  if  userResponse.user?.phone ?? "" != ""  {
+                                        Utils.saveUser(user: userResponse)
+                                        Utils.updateUserCart(list : userResponse.user?.cartContent ?? []){
+                                        }
+                                    }
                     UserDefaults.standard.set(false, forKey: "isDelivery")
                     self.presenter?.loggedInSuccussfully(userResponse: userResponse)
                 } catch(let catchError) {

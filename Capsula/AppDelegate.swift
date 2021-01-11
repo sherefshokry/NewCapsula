@@ -47,10 +47,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate , MessagingDelegate {
 //             print("LOCLOC : \(userLocation)")
 //                
 //            }
-            
+  
     //    }
-        
-        
+
         Intercom.setApiKey(INTERCOM_API_KEY, forAppId: INTERCOM_APP_ID)
         GMSServices.provideAPIKey("AIzaSyCx2XM-jUdvo5cOSJWIBwcayQEL4MO9-OQ")
         GMSPlacesClient.provideAPIKey("AIzaSyCx2XM-jUdvo5cOSJWIBwcayQEL4MO9-OQ")
@@ -60,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate , MessagingDelegate {
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
         }else{
             UIFont.overrideInitializeForEN()
-            UIView.appearance().semanticContentAttribute = .forceLeftToRight
+           UIView.appearance().semanticContentAttribute = .forceLeftToRight
         }
         
         FirebaseApp.configure()
@@ -100,11 +99,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate , MessagingDelegate {
         if isDeliveryMan{
             if Utils.loadDeliveryUser()?.accessToken ?? "" != "" {
                 Intercom.registerUser(withEmail: Utils.loadDeliveryUser()?.user?.email ?? "")
-//                Intercom.registerUser(withUserId: <#T##String#>, email: <#T##String#>)
+                let userAttributes = ICMUserAttributes()
+                userAttributes.customAttributes = ["Type" : "Delivery man"]
+                Intercom.updateUser(userAttributes)
+
             }
         }else{
             if Utils.loadUser()?.accessToken ?? "" != "" {
                 Intercom.registerUser(withEmail: Utils.loadUser()?.user?.email ?? "")
+                let userAttributes = ICMUserAttributes()
+                userAttributes.customAttributes = ["Type" : "Client"]
+                Intercom.updateUser(userAttributes)
+                
             }
             
         }

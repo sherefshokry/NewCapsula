@@ -91,21 +91,21 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) uses the camera.</string>
+	<string>$(PRODUCT_NAME) app will access your camera to be able to upload Insurance/profile images</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) will access your location</string>
+	<string>$(PRODUCT_NAME) app will access your locationto track you and to able to use this updated location to assign the nearest order for you</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>$(PRODUCT_NAME) will access your location</string>
+	<string>$(PRODUCT_NAME) app will access your location to track you and to able to use this updated location to assign the nearest order for you</string>
 	<key>NSLocationUsageDescription</key>
-	<string>$(PRODUCT_NAME) will access your location</string>
+	<string>$(PRODUCT_NAME) app will access your location to get the nearest store location for you and will share this location info so we can reach you easily.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) will access your location</string>
+	<string>$(PRODUCT_NAME) app will access your location to get the nearest store location for you and will share this location info so we can reach you easily.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>$(PRODUCT_NAME) uses the microphone.
         $(PRODUCT_NAME) uses the microphone.
     </string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>$(PRODUCT_NAME) uses photos to provide you with instant technical support</string>
+	<string>$(PRODUCT_NAME) app will access your camera to be able to upload Insurance/profile images</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Almarai-Bold.ttf</string>
